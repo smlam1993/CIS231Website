@@ -6,6 +6,7 @@
 	Strongly Typed by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	# The original work has been modified.
 */
 
 /*********************************************************************************/
@@ -870,4 +871,38 @@
 	{
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
+	}
+	
+/*********************************************************************************/
+/* Google Maps                                                                   */
+/*********************************************************************************/
+	
+	#middle
+	{
+		margin-right: auto;
+		margin-left: auto;
+		width: 1200px;
+		height: 500px;
+		margin-top: 65px;
+		border: 10px solid rgb(75,0,13);
+		background-image: url("../images/locationbg.png");
+		background-color: red;
+    }
+	
+	#middlecontent 
+	{
+		font: normal 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		padding: 10px;
+		color: yellow;
+	}
+	
+	#goomap
+	{
+		float:left;
+	}
+	
+	#map-canvas
+	{
+		width:	500px;
+		height:	400px;
 	}
