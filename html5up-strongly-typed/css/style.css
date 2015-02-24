@@ -885,12 +885,8 @@
 	{
 		margin-right: auto;
 		margin-left: auto;
-		width: 1200px;
-		height: 500px;
+		height: 480px;
 		margin-top: 65px;
-		border: 10px solid rgb(0,0,0);
-		/*background-image: url("../images/locationbg.png"); */
-		background-color: black;
     }
 	
 	#middlecontent 
@@ -913,8 +909,9 @@
 	}
 
 /*********************************************************************************/
-/* Index Image Adjustment                                                                   */
+/* Index Image Adjustment                                                        */
 /*********************************************************************************/
+
 	#top2
 	{
 		height: 235px;
@@ -923,4 +920,17 @@
 	#logoimg
 	{
 		height: 100px;
+	}
+	
+/*********************************************************************************/
+/* Menu Background Image (And Location)                                          */
+/*********************************************************************************/
+
+	#containerbg
+	{
+		background-image: url("../images/chalkboard.png");
+		-moz-background-size: 100% 100%;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+		border: 10px solid brown;
 	}
