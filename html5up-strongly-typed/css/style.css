@@ -888,15 +888,16 @@
 		width: 1200px;
 		height: 500px;
 		margin-top: 65px;
-		border: 10px solid rgb(75,0,13);
-		background-image: url("../images/locationbg.png");
-		background-color: red;
+		border: 10px solid rgb(0,0,0);
+		/*background-image: url("../images/locationbg.png"); */
+		background-color: black;
     }
 	
 	#middlecontent 
 	{
-		font: normal 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
-		padding: 10px;
+		float: left;
+		font: normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		padding: 50px 150px;
 		color: yellow;
 	}
 	
@@ -909,4 +910,17 @@
 	{
 		width:	500px;
 		height:	400px;
+	}
+
+/*********************************************************************************/
+/* Index Image Adjustment                                                                   */
+/*********************************************************************************/
+	#top2
+	{
+		height: 235px;
+	}
+	
+	#logoimg
+	{
+		height: 100px;
 	}
