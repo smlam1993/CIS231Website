@@ -830,14 +830,14 @@
 		#content > section,
 		#content > article
 		{
-			border-top: solid 2px #e5e5e5;
+			border-top: solid 10px red /*#e5e5e5*/;
 			box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
 		}
 
 			#content > section:first-child,
 			#content > article:first-child
 			{
-				border-top: 0;
+				border-top: 10;
 				box-shadow: none;
 			}
 			
@@ -911,11 +911,6 @@
 /*********************************************************************************/
 /* Index Image Adjustment                                                        */
 /*********************************************************************************/
-
-	#top2
-	{
-		height: 235px;
-	}
 	
 	#logoimg
 	{
@@ -928,9 +923,10 @@
 
 	#containerbg
 	{
-		background-image: url("../images/chalkboard.png");
+		/*background-image: url("../images/chalkboard.png");
 		-moz-background-size: 100% 100%;
 		-webkit-background-size: 100% 100%;
-		background-size: 100% 100%;
+		background-size: 100% 100%;*/
 		border: 10px solid brown;
+		border-top: 10px solid brown;
 	}
