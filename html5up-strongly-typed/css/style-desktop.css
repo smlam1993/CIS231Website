@@ -147,7 +147,7 @@
 
 	#header
 	{
-		padding: 14em 0 7em 0;
+		padding: 10em 0 5em 0;
 	}
 	
 		#header h1
@@ -349,7 +349,7 @@
 			padding: 0;
 		}
 	
-	#top2
+	#top
 	{
 		height: 235px;
 	}
@@ -381,6 +381,6 @@
 
 	#copyright
 	{
-		margin-top: 6em;
-		padding-top: 4em;
+		/*margin-top: 1em;*/
+		padding-top: 1em;
 	}

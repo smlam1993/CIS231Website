@@ -598,7 +598,12 @@
 	#header-wrapper
 	{
 		position: relative;
-		background: #fff;
+		background: #000080;
+		/*background-image: url("../images/Brit Flag.png");
+		-moz-background-size: 100% 100%;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+		*/
 		text-align: center;
 	}
 
@@ -634,7 +639,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #cc0000;
 		text-align: center;
 	}
 	
@@ -652,7 +657,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #ff0000;
 	}
 	
 	#footer-wrapper
@@ -660,7 +665,7 @@
 		position: relative;
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
-		background: #f0f0f0;
+		background: #ffffff;
 	}
 	
 		#footer-wrapper form input[type="text"],
@@ -693,8 +698,8 @@
 	#header
 	{
 		position: relative;
-		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+		border-bottom: solid 2px #000080;
+		box-shadow: inset 0px -8px 0px 0px #000080, inset 0px -10px 0px 0px #000080;
 	}
 
 		#header h1
@@ -736,15 +741,16 @@
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: #f0f0f0;
+				color: #f0f0f0;
 				outline: 0;
 			}
 
 				#nav > ul > li > a:before
 				{
 					display: inline-block;
-					background: #878787;
-					color: #e4e4e4;
+					background: #ff0000;
+					color: #f0f0f0;
 					width: 1.65em;
 					height: 1.65em;
 					border-radius: 1.65em;
@@ -830,7 +836,7 @@
 		#content > section,
 		#content > article
 		{
-			border-top: solid 10px red /*#e5e5e5*/;
+			border-top: solid 10px #e5e5e5;
 			box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
 		}
 
@@ -923,10 +929,11 @@
 
 	#containerbg
 	{
-		/*background-image: url("../images/chalkboard.png");
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url("../images/chalkboard.png");
 		-moz-background-size: 100% 100%;
 		-webkit-background-size: 100% 100%;
-		background-size: 100% 100%;*/
+		background-size: 100% 100%;
 		border: 10px solid brown;
-		border-top: 10px solid brown;
 	}
