@@ -381,3 +381,44 @@
 		margin-top: 2em;
 		padding-top: 2em;
 	}
+
+/*********************************************************************************/
+/* Google Maps                                                                   */
+/*********************************************************************************/
+	
+	#middle
+	{
+		height: 750px;
+    }
+	
+	#middlecontent 
+	{
+		margin-right: auto;
+		margin-left: auto;
+		font: normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		padding: 20px 50px 20px 50px;
+	}
+	
+	#map-canvas
+	{
+		height:	250px;
+	}
+	
+/*********************************************************************************/
+/* Other Edits                                                                  */
+/*********************************************************************************/
+
+	#top
+	{
+		height: 235px;
+	}
+	
+	#w_img
+	{
+		height: 240px;
+	}
+	
+	#pageName
+	{
+		font-size: 2em;
+	}

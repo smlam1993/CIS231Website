@@ -89,7 +89,7 @@
 
 		#header h1
 		{
-			font-size: 2em;
+			font-size: 3em;
 		}
 		
 		#header p
@@ -127,4 +127,44 @@
 	{
 		margin-top: 5em;
 		padding-top: 2em;
+	}
+
+/*********************************************************************************/
+/* Google Maps                                                                   */
+/*********************************************************************************/
+	
+	#middle
+	{
+		height: 480px;
+    }
+	
+	#middlecontent 
+	{
+		font: normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		padding: 40px 50px 50px 110px;
+	}
+	
+	#map-canvas
+	{
+		width: 500px;
+		height:	455px;
+	}
+	
+/*********************************************************************************/
+/* Other Edits                                                                  */
+/*********************************************************************************/
+
+	#top
+	{
+		height: 235px;
+	}
+	
+	#w_img
+	{
+		height: 240px;
+	}
+	
+	#pageName
+	{
+		font-size: 2em;
 	}
