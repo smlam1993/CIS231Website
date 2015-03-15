@@ -125,7 +125,7 @@
 
 	#copyright
 	{
-		margin-top: 5em;
+		/*margin-top: 5em;*/
 		padding-top: 2em;
 	}
 
@@ -142,6 +142,13 @@
 	{
 		font: normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
 		padding: 40px 50px 50px 110px;
+	}
+	
+	#middleContent_2
+	{
+		font: normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		padding: 0px 20px;
+		width: 400px;
 	}
 	
 	#map-canvas
@@ -162,6 +169,12 @@
 	#w_img
 	{
 		height: 240px;
+	}
+	
+	#w_p
+	{
+		padding: 0px 5px;
+		float: left;
 	}
 	
 	#pageName

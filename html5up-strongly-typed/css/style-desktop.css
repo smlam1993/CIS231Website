@@ -25,9 +25,9 @@
 
 	h3
 	{
-		font-size: 1em;
+		font-size: 1.5em;
 		letter-spacing: 2px;
-		margin: 0 0 1.25em 0;
+		margin: 0 0 1em 0;
 	}
 
 	/* Table */
@@ -393,7 +393,7 @@
 	#middlecontent 
 	{
 		font: normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
-		padding: 50px 100px 50px 200px;
+		padding: 10px 0px 10px 200px;
 	}
 	
 	#middleContent_2
@@ -432,4 +432,5 @@
 	#w_p
 	{
 		padding: 20px;
+		float: left;
 	}

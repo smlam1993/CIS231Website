@@ -378,7 +378,7 @@
 
 	#copyright
 	{
-		margin-top: 2em;
+		/*margin-top: 2em;*/
 		padding-top: 2em;
 	}
 
@@ -393,10 +393,14 @@
 	
 	#middlecontent 
 	{
-		margin-right: auto;
-		margin-left: auto;
 		font: normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
-		padding: 20px 50px 20px 50px;
+		padding: 20px 30px 20px 30px;
+	}
+	
+	#middleContent_2
+	{
+		font: normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		padding: 0px 10px;
 	}
 	
 	#map-canvas
@@ -415,10 +419,22 @@
 	
 	#w_img
 	{
-		height: 240px;
+		height: 200px;
+		float: left;
 	}
 	
 	#pageName
 	{
 		font-size: 2em;
+	}
+	
+	#w_p
+	{
+		padding: 10px 5px;
+		float: left;
+	}
+	
+	#menu_center
+	{
+		text-align: center;
 	}
