@@ -43,7 +43,8 @@
 	{
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #777;
+		color: yellow;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -615,7 +616,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #f0f0f0;
 		color: #fff;
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
@@ -638,7 +639,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #FFFFFF;
+		background: #f0f0f0;
 		text-align: center;
 	}
 	
@@ -656,7 +657,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #FFF;
+		background: #f0f0f0;
 	}
 	
 	#footer-wrapper
@@ -838,8 +839,8 @@
 		#content > section,
 		#content > article
 		{
-			border-top: solid 10px #fff;
-			box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+			border-top: solid 10px #f0f0f0;
+			box-shadow: inset 0px 8px 0px 0px #000, inset 0px 10px 0px 0px #e5e5e5;
 		}
 
 			#content > section:first-child,
