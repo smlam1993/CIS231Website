@@ -36,7 +36,7 @@
 	{
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #777;
+		color: #000;
 	}
 	
 	h1,h2,h3,h4,h5,h6
@@ -968,4 +968,13 @@
 	#w_img
 	{
 		border: ridge 10px #000;
+	}
+	
+	#sectionName
+	{
+		padding: 40px 40px 40px 0px;
+		font-family: 'Arvo';
+		font-weight: 400;
+		color: yellow;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
