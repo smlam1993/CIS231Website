@@ -141,7 +141,7 @@
 	#middlecontent 
 	{
 		font: normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
-		padding: 40px 50px 50px 110px;
+		padding: 20px 50px 50px 70px;
 	}
 	
 	#middleContent_2
@@ -168,13 +168,23 @@
 	
 	#w_img
 	{
-		height: 240px;
+		height: 230px;
 	}
 	
 	#w_p
 	{
-		padding: 0px 5px;
-		float: left;
+		width: 160px;
+		padding: 50px 0px 0px 20px;
+		font-size: 1.25em;
+		font-weight: 400;
+	}
+	
+	#w_p_2
+	{
+		width: 165px;
+		padding: 40px 0px 0px 20px;
+		font-size: 1.25em;
+		font-weight: 400;
 	}
 	
 	#pageName
@@ -182,7 +192,31 @@
 		font-size: 2em;
 	}
 	
-	#aboutPad
+	#aboutPgN
 	{
-		padding: 100px 0px;
+		font-size: 3em;
+		padding: 0px 0px 40px 0px;
+	}
+	
+	#sectionName
+	{
+		padding: 10px 0px 0px 0px;
+		font-size:  2em;
+	}
+	
+	#aboutUs
+	{
+		font: 1em;
+	}
+	
+	#aboutHeader
+	{
+		font-size: 2em;
+	}
+	
+	#w_caption
+	{
+		padding: 50px 0px 0px 20px;
+		font-size: 1.25em;
+		font-weight: 400;
 	}

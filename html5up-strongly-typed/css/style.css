@@ -89,7 +89,7 @@
 	strong, b
 	{
 		font-weight: 600;
-		color: #666;
+		color: #ffdf00;
 	}
 	
 	em, i
@@ -561,8 +561,8 @@
 			
 				.box.excerpt .date
 				{
-					background: #878787;
-					color: #fff;
+					background: #000;
+					color: yellow;
 					font-weight: 400;
 					text-transform: uppercase;
 					border-radius: 4px;
@@ -957,10 +957,9 @@
 		*/
 	}
 	
-	#pageName
+	#pageName, #sectionName, #aboutPgN, #aboutHeader
 	{
 		font-family: 'Arvo';
-		font-weight: 700;
 		color: yellow;
 		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
@@ -970,11 +969,19 @@
 		border: ridge 10px #000;
 	}
 	
-	#sectionName
+	#w_p, #w_p_2
 	{
-		padding: 40px 40px 40px 0px;
-		font-family: 'Arvo';
-		font-weight: 400;
-		color: yellow;
-		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		float: right;
+		color: black;
+	}
+	
+	#aboutUs
+	{
+		font-family: "Times New Roman", Times, serif;
+	}
+	
+	#w_caption
+	{
+		float: left;
+		font-family: 'Arvo', Times, serif;
 	}

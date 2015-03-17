@@ -429,8 +429,47 @@
 		font-size: 3em;
 	}
 	
+	#aboutPgN
+	{
+		font-size: 3em;
+		padding: 50px 0px 50px 0px;
+	}
+	
 	#w_p
 	{
-		padding: 20px;
-		float: left;
+		width: 250px;
+		padding: 75px 0px 0px 40px;
+		font-size: 1.75em;
+		font-weight: 400;
+	}
+	
+	#w_p_2
+	{
+		width: 255px;
+		padding: 40px 0px 0px 40px;
+		font-size: 1.75em;
+		font-weight: 400;
+	}
+	
+	#sectionName
+	{
+		padding: 70px 0px 0px 0px;
+		font-size:  2.5em;
+	}
+
+	#aboutUs
+	{
+		font-size: 1.5em;
+	}
+	
+	#aboutHeader
+	{
+		font-size: 2.5em;
+	}
+	
+	#w_caption
+	{
+		padding: 50px 0px 0px 40px;
+		font-size: 1.5em;
+		font-weight: 400;
 	}
