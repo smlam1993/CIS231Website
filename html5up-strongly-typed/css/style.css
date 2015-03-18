@@ -985,3 +985,15 @@
 		float: left;
 		font-family: 'Arvo', Times, serif;
 	}
+	
+	#yelpBdg
+	{
+		height: 9%;
+		width: 9%;
+	}
+	
+	#yelpBdgFtr
+	{
+		padding: 0px 0px 0px 0px;
+		height: 40px;
+	}

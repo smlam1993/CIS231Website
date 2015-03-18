@@ -240,7 +240,7 @@
 	
 	#main-wrapper
 	{
-		padding: 3em 20px 3em 20px;
+		padding: 0em 20px 3em 20px;
 	}
 	
 	#footer-wrapper
@@ -482,4 +482,10 @@
 	#menu_center
 	{
 		text-align: center;
+	}
+	
+	#yelpBdg
+	{
+		height: 20px;
+		width: 20px;
 	}
