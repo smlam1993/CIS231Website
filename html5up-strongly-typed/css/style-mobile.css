@@ -21,7 +21,7 @@
 
 	h2, h3, h4, h5, h6
 	{
-		font-size: 1.2em;
+		font-size: 2em;
 		letter-spacing: 2px;
 		text-align: center;
 		margin: 0 0 1.5em 0;
@@ -259,7 +259,7 @@
 	
 		#header h1
 		{
-			font-size: 2em;
+			font-size: 2.47em;
 			letter-spacing: 8px;
 			line-height: 1.25em;
 		}
@@ -388,13 +388,14 @@
 	
 	#middle
 	{
-		height: 750px;
+		height: 800px;
     }
 	
 	#middlecontent 
 	{
 		font: normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
-		padding: 20px 30px 20px 30px;
+		padding: 20px 30px 20px 10px;
+		float: left;
 	}
 	
 	#middleContent_2
@@ -414,7 +415,7 @@
 
 	#top
 	{
-		height: 245px;
+		height: 40%;
 	}
 	
 	#w_img
@@ -442,6 +443,7 @@
 		font-size: 1.25em;
 		float: left;
 		text-align: center;
+		width: 50%;
 	}
 	
 	#w_p_2
@@ -450,6 +452,7 @@
 		font-size: 1.25em;
 		float: left;
 		text-align: center;
+		width: 50%;
 	}
 	
 	#sectionName
