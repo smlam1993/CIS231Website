@@ -482,8 +482,9 @@
 	#w_caption
 	{
 		padding: 50px 0px 0px 40px;
-		font-size: 1.25em;
+		font-size: .75em;
 		font-weight: 400;
+		text-align: left;
 	}
 	
 	#menu_center
