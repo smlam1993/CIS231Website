@@ -19,7 +19,7 @@
 		font-size: 2.65em;
 		font-weight: 400;
 		letter-spacing: 4px;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 .5em 0;
 		line-height: 1.75em;
 	}
 
@@ -387,7 +387,7 @@
 	
 	#middle
 	{
-		height: 480px;
+		height: 500px;
     }
 	
 	#middlecontent 
@@ -406,7 +406,7 @@
 	#map-canvas
 	{
 		width: 500px;
-		height:	455px;
+		height:	100%;
 	}
 	
 /*********************************************************************************/
@@ -466,18 +466,19 @@
 
 	#aboutUs
 	{
-		font-size: 1.5em;
-	}
-	
-	#aboutHeader
-	{
-		font-size: 2.5em;
+		font-size: 1.25em;
 	}
 	
 	#w_caption
 	{
 		padding: 50px 0px 0px 40px;
-		font-size: 1.3em;
+		font-size: 1.2em;
 		font-weight: 400;
 		text-align: left;
+	}
+	
+	#w_Hook
+	{
+		padding: 0px 0px 30px 0px;
+		font-size: 1.25em;
 	}

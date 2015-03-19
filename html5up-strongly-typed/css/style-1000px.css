@@ -155,7 +155,7 @@
 	#map-canvas
 	{
 		width: 500px;
-		height:	455px;
+		height:	100%;
 	}
 	
 /*********************************************************************************/
@@ -210,15 +210,16 @@
 		font: 1em;
 	}
 	
-	#aboutHeader
-	{
-		font-size: 2em;
-	}
-	
 	#w_caption
 	{
 		padding: 50px 0px 0px 20px;
 		font-size: 1em;
 		font-weight: 400;
 		text-align: left;
+	}
+	
+	#w_Hook
+	{
+		padding: 0px 0px 20px 0px;
+		font-size: 1.1em;
 	}

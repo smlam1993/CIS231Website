@@ -83,13 +83,13 @@
 		
 		a:hover strong
 		{
-			color: #ed786a;
+			color: #ff0000;
 		}
 
 	strong, b
 	{
 		font-weight: 600;
-		color: #ffdf00;
+		color: yellow;
 	}
 	
 	em, i
@@ -484,7 +484,7 @@
 			-webkit-appearance: none;
 			position: relative;
 			display: inline-block;
-			background: #ed786a;
+			background: #ff0000;
 			color: #fff !important;
 			text-transform: uppercase;
 			border-radius: 4px;
@@ -514,7 +514,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background: #fd887a;
+				background: #ff4d4d;
 			}
 			
 			input[type="button"]:active,
@@ -522,7 +522,7 @@
 			input[type="reset"]:active,
 			.button:active
 			{
-				background: #ed786a;
+				background: #ff4d4d;
 			}
 		
 			input[type="button"].alt,
@@ -931,7 +931,7 @@
 	{
 		background: #000;
 		color: #FFF;
-		padding: 0px 50px 50px 0px;
+		padding: 30px 50px 40px 0px;
 		font-family: Chalkboard, ‘Comic Sans’, sans-serif;
 		/*background-image: url("../images/chalkboard.png");
 		-moz-background-size: 100% 100%;
@@ -975,6 +975,7 @@
 	#aboutUs
 	{
 		font-family: "Times New Roman", Times, serif;
+		font-weight: bold;
 	}
 	
 	#w_caption
@@ -993,4 +994,11 @@
 	{
 		padding: 0px 0px 0px 0px;
 		height: 40px;
+	}
+	
+	#w_Hook
+	{
+		text-align: left;
+		font-weight: bold;
+		font-family: "Times New Roman", Times, serif;
 	}
