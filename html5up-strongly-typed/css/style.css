@@ -658,6 +658,7 @@
 		position: relative;
 		overflow: hidden;
 		background: #f0f0f0;
+		text-align: center;
 	}
 	
 	#footer-wrapper
@@ -916,19 +917,15 @@
 		background-color: blue;
 		float: left;
 	}
-
-/*********************************************************************************/
-/* Index Image Adjustment                                                        */
-/*********************************************************************************/
-	
-	#logoimg
-	{
-		height: 100px;
-	}
 	
 /*********************************************************************************/
 /* Menu Background Image (And Location)                                          */
 /*********************************************************************************/
+
+	#top
+	{
+		border: ridge 10px grey;
+	}
 
 	#menuContain
 	{
@@ -966,7 +963,7 @@
 	
 	#w_img
 	{
-		border: ridge 10px #000;
+		border: ridge 10px grey;
 	}
 	
 	#w_p, #w_p_2
